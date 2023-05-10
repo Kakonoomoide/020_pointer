@@ -12,7 +12,10 @@ void mahasiswa::showNIM() {
 }
 
 int main(){
-
 	mahasiswa mhs{ 1 };
+	mhs.showNIM();
+
+	mahasiswa& ref = mhs;
+	ref.nim = 2;
 	mhs.showNIM();
 }
