@@ -36,7 +36,10 @@ int main(){
 	o.setNama("rizki ramadan");
 
 	siswa s;
-	s.setId(020);
+	s.setId(20);
 	s.displayAll(o);
 
+	cout << endl;
+	system("pause");
+	return 0;
 }
