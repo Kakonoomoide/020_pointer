@@ -16,4 +16,8 @@ void setNama(mahasiswa& a, string pNama) {
 int main(){
 	mahasiswa mhs;
 	setNama(mhs, "Rizki Ramadan");
+
+	cout << endl;
+	system("pause");
+	return 0;
 }
