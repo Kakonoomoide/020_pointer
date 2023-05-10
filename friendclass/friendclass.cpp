@@ -35,4 +35,8 @@ int main(){
 	orang o;
 	o.setNama("rizki ramadan");
 
+	siswa s;
+	s.setId(020);
+	s.displayAll(o);
+
 }
