@@ -7,6 +7,10 @@ public:
 	void showNIM();
 };
 
+void mahasiswa::showNIM() {
+	cout << "No Induk : " << nim << endl;
+}
+
 int main(){
 
 }
