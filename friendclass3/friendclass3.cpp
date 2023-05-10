@@ -22,7 +22,8 @@ void manusia::showNilaiPelajar(pelajar& x) {
     cout << "Nilai Pelajar: " << x.nilai;
 }
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main(){
+    manusia m;
+    pelajar p;
+
 }
